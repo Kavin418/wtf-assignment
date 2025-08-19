@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavin Kannan - Resume</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header Section */
+    header {
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header h2 {
+      font-weight: normal;
+      font-size: 1.4em;
+    }
+
+    /* Sections */
+    section {
+      max-width: 900px;
+      background: #fff;
+      margin: 25px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    section h3 {
+      color: #0077b6;
+      border-bottom: 2px solid #90e0ef;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+
+    /* Profile Image */
+    img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      border: 3px solid #0077b6;
+    }
+
+    /* Skills */
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    ul li {
+      background: #90e0ef;
+      color: #023e8a;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+    table th {
+      background: #0077b6;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background: #f1f9ff;
+    }
+
+    /* Links */
+    a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Contact Form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    input[type="submit"] {
+      background: #00b4d8;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+      border: none;
+    }
+    input[type="submit"]:hover {
+      background: #0077b6;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #023e8a;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>KAVIN KANNAN</h1>
+    <h2>FULL STACK DEVELOPER | SRI SAI RAM ENGINEERING COLLEGE</h2> <p>email : thanatosk4a4v2i6n@gmail.com</p>
+  </header>
+
+  <!-- About Me -->
+  <section>
+    <h3>About Me</h3>
+    <p>I am a passionate software developer with experience in full-stack web development. 
+       I enjoy building scalable web applications and exploring new technologies that improve efficiency.</p>
+    <p>My career goal is to contribute to innovative projects and grow my expertise in software engineering.</p>
+  </section>
+
+  <!-- Profile -->
+  <section>
+    <h3>Profile</h3>
+    <img src="intern image 2.jpg" alt="Kavin Profile Image" width="200">
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>HTML5, CSS3, JavaScript</li>
+      <li>Python & Django</li>
+      <li>React & Node.js</li>
+      <li>SQL & MongoDB</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <h3>Educational Qualifications</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Year</th>
+          <th>Grade/CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Master of Technology (M.TECH-CSE)</td>
+          <td>SRI SAI RAM ENGINEERING COLLEGE</td>
+          <td>2020</td>
+          <td>8.4 CGPA</td>
+        </tr>
+        <tr>
+          <td>Senior Secondary (12th)</td>
+          <td>SHIKSHAA MATRICULATION HIGHER SECONDARY</td>
+          <td>2022</td>
+          <td>88%</td>
+        </tr>
+        <tr>
+          <td>Secondary (10th)</td>
+          <td>SHIKSHAA MATRICULATION HIGHER SECONDARY</td>
+          <td>2021</td>
+          <td>CORONA BATCH</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Links -->
+  <section>
+    <h3>Find Me Online</h3>
+    <p>
+      <a href="https://github.com/Kavin446" target="_blank">GitHub</a> | 
+      <a href="https://www.linkedin.com/in/kavin-kannan-1186342b7" target="_blank">LinkedIn</a> 
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h3>Contact Me</h3>
+    <form action="#" method="post">
+      <input type="text" id="name" placeholder="Enter your name" required>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 KAVIN KANNAN | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
